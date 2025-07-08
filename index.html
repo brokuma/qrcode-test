@@ -35,17 +35,24 @@
   </head>
   <body>
     <h1 class="text-center">QRgen</h1>
+    <hr>
     <main>
-      <form class="form">
-        <div class="form-group mb-3">
-          <label for="txtText">Insert text here :</label><br />
-          <input type="text" class="txtText form-control" id="txtText" />
+      <div class="input container d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <form class="form">
+              <div class="form-group mb-3">
+                <label for="txtText">Insert text here :</label><br />
+                <input type="text" class="txtText form-control" id="txtText" />
+              </div>
+              <button type="button" class="btn btn-sm btn-dark btn-gen" disabled>
+                Generate
+              </button>
+              <button type="button" class="btn btn-sm btn-dark btn-rel" disabled>&#8635</button>
+            </form>
+          </div>
         </div>
-        <button type="button" class="btn btn-sm btn-dark btn-gen" disabled>
-          Generate
-        </button>
-        <button type="button" class="btn btn-sm btn-dark btn-rel" disabled>&#8635</button>
-      </form>
+      </div>
       <hr />
       <div class="output container d-flex justify-content-center align-items-center">
         <div class="box d-flex justify-content-center align-items-center">
