@@ -12,3 +12,10 @@ main {
 body {
   margin: 0;
 }
+
+.box {
+  width: 85px;
+  height: 85px;
+  border: solid 1px black;
+  border-radius: 7px;
+}
